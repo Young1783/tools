@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.Chrome</key>
+                <dict>
+                    <key>Forced</key>
+                    <array>
+                        <dict>
+                            <key>mcx_preference_settings</key>
+                            <dict>
+                                <key>ExtensionInstallWhitelist</key>
+                                <array>
+                                    <string>hkohffmgfaddmamljdgogoknlfljnpbl</string>
+                                </array>
+                            </dict>
+                        </dict>
+                    </array>
+                </dict>
+				<key>com.google.keystone</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>updatePolicies</key>
+								<dict>
+									<key>global</key>
+									<dict>
+										<key>UpdateDefault</key>
+										<integer>0</integer>
+									</dict>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.a10d850c-4cae-4fae-b2af-dbf7ccc92cfa.alacarte.customsettings.48b656f2-7bf0-456c-869c-293a2a0cbf03</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>48b656f2-7bf0-456c-869c-293a2a0cbf03</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.google.keystone
+</string>
+	<key>PayloadDisplayName</key>
+	<string>MCXToProfile: com.google.keystone</string>
+	<key>PayloadIdentifier</key>
+	<string>com.google.keystone</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>a10d850c-4cae-4fae-b2af-dbf7ccc92cfa</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
